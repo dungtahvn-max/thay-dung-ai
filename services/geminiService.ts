@@ -2,7 +2,7 @@ import { GoogleGenAI, Content, Part } from "@google/genai";
 import { ChatMessage, User } from "../types";
 
 // Initialize Gemini Client
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
 
 const MODEL_NAME = "gemini-2.5-flash";
 export const STORAGE_KEY_TRAINING = 'thay_dung_training_data';
