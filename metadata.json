@@ -1,0 +1,7 @@
+{
+  "name": "Trợ lý học tập Thầy Dũng",
+  "description": "Chatbot hỗ trợ học tập dành cho học sinh, giải đáp thắc mắc và cung cấp bài tập thực hành theo từng khối lớp.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
